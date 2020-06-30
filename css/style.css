@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: "Mukta";
+    src: url("fonts/Mukta-Regular.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Mukta";
+    src: url("fonts/Mukta-Light.ttf");
+    font-weight: 200;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&family=Roboto+Mono&display=swap');
+
+
+html {
+    background-color: #e0e0e0;
+    background-image: url(/img/rozsa-03.jpg);
+}
+
+
+h1 {
+    color: rgb(124, 3, 13);
+    font-family: 'Public Sans', sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Public Sans', sans-serif;
+}
+
+#rozsamania-header {
+    color: rgb(58, 14, 14);
+    
+}
+#rozsaagyas-header {
+    color: darkmagenta;
+}
+
+.content {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    line-height: normal;
+    font-weight: bolder;
+}
+
+.img-div {
+    background-color: rgb(205, 216, 46);
+}
+
+.light {
+   background-color: green; 
+}
+img {
+    width: 10.05%;
+    box-shadow: 4px 4px 7px black;
+    margin: 1.1%;
+}
+
